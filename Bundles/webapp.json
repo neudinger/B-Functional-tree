@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Analytics",
+        "versions": 3,
+        "target": "Production",
+        "tag": null,
+        "db": {
+            "Port": 65,
+            "User": "Elon",
+            "Password": "likeCarOnSpace"
+        },
+        "docker": true,
+        "unittest": [],
+        "serv": {
+            "Port": 65,
+            "User": "Elon",
+            "Password": "likeCarOnSpace"
+        }
+    },
+    {
+        "name": "Analytics",
+        "versions": 3,
+        "target": "Development",
+        "tag": null,
+        "db": {
+            "Port": 4242,
+            "User": "H2G2",
+            "Password": "42"
+        },
+        "docker": true,
+        "unittest": [],
+        "serv": {
+            "Port": 1010,
+            "User": "H2G2",
+            "Password": "pffff"
+        }
+    },
+    {
+        "name": "Analytics",
+        "versions": 3,
+        "target": "Integration",
+        "tag": null,
+        "db": {
+            "Port": 65,
+            "User": "Nicola",
+            "Password": "likeCarOnSpacex"
+        },
+        "docker": true,
+        "unittest": [],
+        "serv": {
+            "Port": 65,
+            "User": "Tesla",
+            "Password": "newman"
+        }
+    }
+]
